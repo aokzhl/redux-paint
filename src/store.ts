@@ -25,5 +25,6 @@ export const store = configureStore({
   }),
   middleware,
 });
+console.log(store);
 
 export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>;
